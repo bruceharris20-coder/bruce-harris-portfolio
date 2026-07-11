@@ -1,31 +1,44 @@
-# Bruce L. Harris Sr. Executive Portfolio
+# Bruce Harris Portfolio Website
 
-A responsive static website built with HTML, CSS, and JavaScript.
-
-## Preview
-
-1. Unzip the folder.
-2. Double-click `index.html`.
-3. It will open in Chrome or your default browser.
-
-No Live Server is required.
+This is a simple static website built with HTML, CSS, and JavaScript.
 
 ## Files
 
-- `index.html` — page content and structure
-- `styles.css` — complete navy-and-gold design
-- `script.js` — mobile menu and reveal animation
-- `assets/bruce-harris-cutout.png` — transparent portrait
+- `index.html` — website structure and content
+- `styles.css` — design, colors, layout, and responsive behavior
+- `script.js` — mobile navigation and current year
+- `assets/bruce-harris-profile.jpg` — profile image
+
+## Preview on your computer
+
+Double-click `index.html` to open it in your browser.
+
+For the best local preview, open the folder in Visual Studio Code and use the Live Server extension.
 
 ## Publish with GitHub Pages
 
 1. Create a new GitHub repository.
 2. Upload all files and the `assets` folder.
-3. Open **Settings → Pages**.
-4. Select **Deploy from a branch**.
-5. Choose the `main` branch and `/root`.
-6. Save.
+3. Open the repository's **Settings**.
+4. Select **Pages**.
+5. Choose **Deploy from a branch**.
+6. Select the `main` branch and `/root`.
+7. Save.
 
-## Important edits before publishing
+GitHub will provide a public website address.
 
-Update the LinkedIn links in `index.html` with your exact LinkedIn profile URL.
+## Update contact details
+
+Edit these items in `index.html`:
+
+- Email address
+- Phone number
+- LinkedIn URL
+- Project descriptions
+- Location
+
+## Design
+
+- Dark navy background
+- Subtle gold accents
+- Responsive desktop and mobile layout

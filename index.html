@@ -5,323 +5,251 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Bruce L. Harris Sr. — Executive Leadership, AI Strategy, and Business Transformation." />
   <title>Bruce L. Harris Sr. | Executive Leadership & AI Strategy</title>
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Great+Vibes&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
   <header class="site-header">
-    <div class="container nav-shell">
+    <div class="container nav-wrap">
       <a class="brand" href="#home" aria-label="Bruce L. Harris Sr. home">
-        <span class="brand-script">Bruce L. Harris Sr.</span>
-        <span class="brand-line">Leadership. Innovation. Impact.</span>
+        <span class="signature">Bruce L. Harris Sr.</span>
+        <span class="tagline">Leadership. Innovation. Impact.</span>
       </a>
 
-      <button class="menu-button" type="button" aria-label="Open navigation" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
+      <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
 
       <nav class="site-nav" aria-label="Primary navigation">
         <a href="#home">Home</a>
         <a href="#about">About</a>
         <a href="#experience">Experience</a>
-        <a href="#capabilities">Capabilities</a>
-        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
         <a href="#contact">Contact</a>
-        <a class="nav-button" href="#contact">Let's Connect</a>
+        <a class="nav-cta" href="#contact">Let's Connect</a>
       </nav>
     </div>
   </header>
 
   <main>
     <section class="hero" id="home">
-      <div class="hero-pattern" aria-hidden="true">
-        <div class="world-orbit orbit-one"></div>
-        <div class="world-orbit orbit-two"></div>
-        <div class="node n1"></div>
-        <div class="node n2"></div>
-        <div class="node n3"></div>
-        <div class="node n4"></div>
-      </div>
-
       <div class="container hero-grid">
-        <div class="hero-copy reveal">
-          <p class="eyebrow">Executive Leadership <span>|</span> AI Strategy <span>|</span> Business Transformation</p>
-          <h1>Bruce L.<br><strong>Harris Sr.</strong></h1>
-          <div class="gold-rule"></div>
-
-          <p class="hero-intro">
-            Helping organizations leverage artificial intelligence, operational excellence,
-            and executive leadership to accelerate growth, improve performance, and create
-            measurable business value.
+        <div class="hero-copy">
+          <p class="eyebrow">Executive Leadership | AI Strategy | Business Transformation</p>
+          <h1>Bruce L.<br><span>Harris Sr.</span></h1>
+          <p class="hero-lead">
+            Bridging decades of casino leadership with artificial intelligence to drive innovation,
+            maximize performance, and create measurable business value.
           </p>
 
           <div class="hero-actions">
-            <a class="button button-gold" href="#capabilities">View My Work <span>→</span></a>
-            <a class="button button-outline" href="#contact">Let's Connect</a>
+            <a class="btn btn-gold" href="#projects">View My Work <span>→</span></a>
+            <a class="btn btn-outline" href="#contact">Let's Connect</a>
           </div>
 
-          <div class="contact-icons">
-            <a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.5 8.3H3.2V21h3.3V8.3ZM4.8 3A1.9 1.9 0 1 0 4.8 6.8 1.9 1.9 0 0 0 4.8 3ZM21 13.7c0-3.8-2-5.6-4.7-5.6-2.2 0-3.1 1.2-3.7 2V8.3H9.3V21h3.3v-6.3c0-1.7.3-3.3 2.4-3.3 2 0 2.1 1.9 2.1 3.4V21H21v-7.3Z"/></svg>
-            </a>
-            <a href="mailto:Bruce@BHarrisConsultingLLC.com" aria-label="Email">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 5h18v14H3V5Zm9 7 7-5H5l7 5Zm0 2.3L5 9.2V17h14V9.2l-7 5.1Z"/></svg>
-            </a>
-            <a href="tel:+18292033486" aria-label="Phone">
-              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h3l1.5 5-2.2 1.5c1.2 2.5 3.2 4.5 5.7 5.7l1.5-2.2 5 1.5v3c0 1.4-1.1 2.5-2.5 2.5C10.2 19 5 13.8 5 7c0-1.4.6-5 2-5Z"/></svg>
-            </a>
+          <div class="social-row" aria-label="Contact links">
+            <a href="https://www.linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn">in</a>
+            <a href="mailto:Bruce@BHarrisConsultingLLC.com" aria-label="Email">✉</a>
+            <a href="tel:+18292033486" aria-label="Phone">☎</a>
           </div>
         </div>
 
-        <div class="hero-portrait reveal">
-          <div class="portrait-glow"></div>
-          <div class="portrait-ring"></div>
-          <div class="dot-field"></div>
-          <img src="assets/bruce-harris-cutout.png" alt="Bruce L. Harris Sr." />
-          <div class="portrait-fade"></div>
+        <div class="hero-visual">
+          <div class="gold-ring"></div>
+          <div class="dot-grid"></div>
+          <img src="assets/bruce-harris-profile.jpg" alt="Bruce L. Harris Sr." />
         </div>
-      </div>
-    </section>
-
-    <section class="credential-strip" id="education">
-      <div class="container credential-grid">
-        <article class="credential-card reveal">
-          <div class="line-icon">
-            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 5 7 12v11c0 10 6 17 17 20 11-3 17-10 17-20V12L24 5Zm0 7 9 4v7c0 6-3 10-9 13-6-3-9-7-9-13v-7l9-4Z"/></svg>
-          </div>
-          <h3>Executive Leadership</h3>
-          <strong>40+ Years</strong>
-          <p>Casino Operations • Hospitality • Business Strategy</p>
-        </article>
-
-        <article class="credential-card reveal">
-          <div class="line-icon">
-            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="m4 16 20-10 20 10-20 10L4 16Zm8 8 12 6 12-6v10c-7 5-17 5-24 0V24Z"/></svg>
-          </div>
-          <h3>AI &amp; ML</h3>
-          <strong>Post Graduate Certificate</strong>
-          <p>Artificial Intelligence &amp; Machine Learning<br><b>GPA: 3.27</b></p>
-        </article>
-
-        <article class="credential-card reveal">
-          <div class="line-icon">
-            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="m18 11-11 13 11 13 4-4-8-9 8-9-4-4Zm12 0-4 4 8 9-8 9 4 4 11-13-11-13Z"/></svg>
-          </div>
-          <h3>Python Foundations</h3>
-          <strong>Professional Certificate</strong>
-          <p>Python programming fundamentals for AI and analytics</p>
-        </article>
-
-        <article class="credential-card reveal">
-          <div class="line-icon">
-            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4a20 20 0 1 0 0 40 20 20 0 0 0 0-40Zm12 17h-7a35 35 0 0 0-3-10c5 1 9 5 10 10ZM24 10c2 3 3 7 3 11h-6c0-4 1-8 3-11Zm-2 24h4c-1 2-1 3-2 4-1-1-1-2-2-4Zm-1-4v-5h6v5h-6Zm-9-5h5v5h-4c-1-2-1-3-1-5Zm1-4c1-5 5-9 10-10-2 3-3 6-3 10h-7Zm22 4c0 2 0 3-1 5h-4v-5h5Z"/></svg>
-          </div>
-          <h3>Global Experience</h3>
-          <strong>Casino Openings</strong>
-          <p>United States • New Zealand • Caribbean</p>
-        </article>
-
-        <article class="credential-card reveal">
-          <div class="line-icon">
-            <svg viewBox="0 0 48 48" aria-hidden="true"><path d="M7 37h34v4H7v-4Zm4-5 7-9 7 5 11-15 4 3-14 20-7-6-5 6-3-4Z"/></svg>
-          </div>
-          <h3>Business Transformation</h3>
-          <strong>Strategy to Execution</strong>
-          <p>AI, automation, analytics, leadership, and operational performance</p>
-        </article>
       </div>
     </section>
 
     <section class="section about" id="about">
       <div class="container about-grid">
-        <div class="about-copy reveal">
-          <p class="section-label">About Me</p>
+        <div class="about-copy">
+          <p class="section-kicker">About Me</p>
           <h2>Experience That Builds Confidence.<br><span>Innovation That Creates Results.</span></h2>
           <p>
-            For more than four decades, I have led teams, opened casino properties, built
-            strategic partnerships, and helped organizations improve operational performance.
+            For more than four decades, I have led teams, opened casino properties, built strategic
+            partnerships, and helped organizations improve operational performance.
           </p>
           <p>
             Today, I combine executive leadership with artificial intelligence to help businesses
-            automate processes, uncover insight from data, and build scalable solutions that
-            deliver measurable results.
+            automate processes, uncover insights from data, and build scalable solutions that deliver
+            measurable results.
           </p>
           <blockquote>Technology should enhance people—not replace them.</blockquote>
-          <div class="signature">Bruce L. Harris Sr.</div>
+          <div class="signature signature-large">Bruce L. Harris Sr.</div>
         </div>
 
-        <div class="leadership-panel reveal">
-          <div class="panel-line"></div>
-          <p>My work is grounded in five principles:</p>
-          <ul>
-            <li>Lead with trust and accountability.</li>
-            <li>Use technology to strengthen people and performance.</li>
-            <li>Turn strategy into practical execution.</li>
-            <li>Build relationships that create long-term value.</li>
-            <li>Measure success by outcomes, not activity.</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <section class="section capabilities" id="capabilities">
-      <div class="container">
-        <div class="section-heading reveal">
-          <p class="section-label">Executive Capabilities</p>
-          <h2>How I Help Organizations Move Forward</h2>
-        </div>
-
-        <div class="capability-grid">
-          <article class="capability-card reveal">
-            <div class="capability-visual visual-network">
-              <span></span><span></span><span></span><span></span><span></span>
-            </div>
-            <h3>AI Business Transformation</h3>
-            <p>Identifying practical opportunities where artificial intelligence can improve service, performance, and decision-making.</p>
+        <div class="credential-grid">
+          <article class="credential-card">
+            <div class="icon">💼</div>
+            <h3>40+</h3>
+            <p>Years of Executive Leadership</p>
+            <small>Casino Operations • Hospitality • Business Strategy</small>
           </article>
 
-          <article class="capability-card reveal">
-            <div class="capability-visual visual-dashboard">
-              <i></i><i></i><i></i><i></i>
-            </div>
-            <h3>Executive Intelligence</h3>
-            <p>Transforming complex operational data into clear insights, dashboards, and leadership-ready reporting.</p>
+          <article class="credential-card">
+            <div class="icon">🎓</div>
+            <h3>AI &amp; ML</h3>
+            <p>Post Graduate Certificate</p>
+            <small>Artificial Intelligence &amp; Machine Learning • GPA 3.27</small>
           </article>
 
-          <article class="capability-card reveal">
-            <div class="capability-visual visual-flow">
-              <span></span><span></span><span></span><span></span>
-            </div>
-            <h3>Workflow Automation</h3>
-            <p>Reducing repetitive work and creating faster, more consistent, and scalable operating processes.</p>
+          <article class="credential-card">
+            <div class="icon">⌨</div>
+            <h3>Python Foundations</h3>
+            <p>Professional Certificate</p>
+            <small>Programming fundamentals for AI and analytics</small>
           </article>
 
-          <article class="capability-card reveal">
-            <div class="capability-visual visual-advisory">
-              <i></i><i></i><i></i>
-            </div>
-            <h3>Strategic Advisory</h3>
-            <p>Helping executive teams evaluate technology, partnerships, operations, and practical paths to execution.</p>
-          </article>
-        </div>
-
-        <div class="service-row reveal">
-          <article>
-            <h3>Executive Leadership</h3>
-            <p>Developing strategy, building high-performing teams, and executing with accountability.</p>
-          </article>
-          <article>
-            <h3>AI Strategy &amp; Automation</h3>
-            <p>Designing AI-powered solutions that reduce manual work and create competitive advantage.</p>
-          </article>
-          <article>
-            <h3>Data Intelligence</h3>
-            <p>Turning data into actionable insight through analytics, reporting, and automation.</p>
-          </article>
-          <article>
-            <h3>Business Development</h3>
-            <p>Building strategic relationships and growth opportunities across multiple industries.</p>
-          </article>
-          <article>
-            <h3>Client Success</h3>
-            <p>Ensuring every solution delivers measurable value and long-term success.</p>
+          <article class="credential-card">
+            <div class="icon">🎯</div>
+            <h3>Results Driven</h3>
+            <p>Leadership • Innovation • Growth</p>
+            <small>Building teams, solving problems, delivering results</small>
           </article>
         </div>
       </div>
     </section>
 
-    <section class="section experience" id="experience">
+    <section class="section journey" id="experience">
       <div class="container">
-        <div class="section-heading reveal">
-          <p class="section-label">40+ Years of Executive Experience</p>
-          <h2>A Career Built on Leadership, Relationships, and Results</h2>
-        </div>
+        <p class="section-kicker centered">My Journey</p>
+        <h2 class="section-title">From Casino Operations to Artificial Intelligence</h2>
 
         <div class="timeline">
-          <article class="timeline-step reveal">
-            <span class="year">1978+</span>
-            <div class="timeline-dot"></div>
-            <h3>Atlantic City</h3>
-            <p>Entered the casino industry during a transformative period of growth and opportunity.</p>
+          <article class="timeline-card">
+            <span class="timeline-number">01</span>
+            <h3>Casino Leadership</h3>
+            <p>
+              Built a career across casino operations, player development, executive hosting,
+              property openings, and revenue-focused leadership.
+            </p>
           </article>
 
-          <article class="timeline-step reveal">
-            <span class="year">1980s–1990s</span>
-            <div class="timeline-dot"></div>
-            <h3>Leadership Roles</h3>
-            <p>Director of Casino Operations, Player Development leader, and Executive Host.</p>
+          <article class="timeline-card">
+            <span class="timeline-number">02</span>
+            <h3>Executive Strategy</h3>
+            <p>
+              Led teams, strengthened guest experiences, built high-value relationships, and aligned
+              operations with measurable business goals.
+            </p>
           </article>
 
-          <article class="timeline-step reveal">
-            <span class="year">2000s</span>
-            <div class="timeline-dot"></div>
-            <h3>Casino Openings</h3>
-            <p>Opened and supported properties across the United States, New Zealand, and the Caribbean.</p>
+          <article class="timeline-card">
+            <span class="timeline-number">03</span>
+            <h3>AI Transformation</h3>
+            <p>
+              Applied modern AI, automation, Python foundations, analytics, and workflow design to
+              solve practical business problems.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section expertise" id="skills">
+      <div class="container">
+        <p class="section-kicker centered">What I Do</p>
+        <h2 class="section-title">Driving Innovation at the Intersection of Casinos and AI</h2>
+
+        <div class="expertise-grid">
+          <article class="expertise-card">
+            <div class="line-icon">↗</div>
+            <h3>Casino Operations Leadership</h3>
+            <p>Casino management, host operations, player development, guest strategy, and revenue growth.</p>
           </article>
 
-          <article class="timeline-step reveal">
-            <span class="year">2010s</span>
-            <div class="timeline-dot"></div>
-            <h3>Strategic Leadership</h3>
-            <p>Focused on growth, operational performance, guest strategy, and team development.</p>
+          <article class="expertise-card">
+            <div class="line-icon">◎</div>
+            <h3>AI Strategy &amp; Automation</h3>
+            <p>Practical AI solutions that save time, improve efficiency, and create competitive advantage.</p>
           </article>
 
-          <article class="timeline-step reveal">
-            <span class="year">2020s</span>
-            <div class="timeline-dot"></div>
-            <h3>AI Innovation</h3>
-            <p>Applying artificial intelligence and automation to practical business challenges.</p>
+          <article class="expertise-card">
+            <div class="line-icon">▣</div>
+            <h3>Data &amp; Analytics</h3>
+            <p>Dashboards, reporting, predictive insights, and executive-ready business intelligence.</p>
+          </article>
+
+          <article class="expertise-card">
+            <div class="line-icon">◉</div>
+            <h3>Client Success &amp; Consulting</h3>
+            <p>Partnering with organizations to solve complex challenges and achieve measurable outcomes.</p>
+          </article>
+
+          <article class="expertise-card">
+            <div class="line-icon">↗</div>
+            <h3>Business Development</h3>
+            <p>Creating partnerships, opening doors, and driving growth through trusted relationships.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="container">
+        <p class="section-kicker centered">Featured Work</p>
+        <h2 class="section-title">Selected Projects &amp; Strategic Focus</h2>
+
+        <div class="project-grid">
+          <article class="project-card">
+            <span class="project-label">Casino AI</span>
+            <h3>AI-Powered Casino Automation</h3>
+            <p>Improving host productivity, player engagement, service consistency, and operational efficiency.</p>
+          </article>
+
+          <article class="project-card">
+            <span class="project-label">Analytics</span>
+            <h3>Business Intelligence Dashboards</h3>
+            <p>Turning operational data into executive insight through clear, decision-ready dashboards.</p>
+          </article>
+
+          <article class="project-card">
+            <span class="project-label">Automation</span>
+            <h3>Workflow Transformation</h3>
+            <p>Reducing repetitive work and creating faster, more reliable business processes.</p>
+          </article>
+
+          <article class="project-card">
+            <span class="project-label">Advisory</span>
+            <h3>Executive Strategy</h3>
+            <p>Helping leadership teams evaluate AI opportunities, partnerships, and practical paths to execution.</p>
           </article>
         </div>
       </div>
     </section>
 
     <section class="section philosophy">
-      <div class="container philosophy-wrap reveal">
-        <p class="section-label">Leadership Philosophy</p>
+      <div class="container philosophy-wrap">
+        <p class="section-kicker">Leadership Philosophy</p>
         <h2>Leadership is earned through trust.</h2>
-        <p>
-          Innovation succeeds through execution. Technology creates value when people embrace it.
-          Relationships remain every organization's greatest competitive advantage.
-        </p>
+        <p>Innovation succeeds through execution. Technology creates value when people embrace it. Relationships remain every organization's greatest competitive advantage.</p>
       </div>
     </section>
 
     <section class="section contact" id="contact">
-      <div class="container contact-grid">
-        <div class="contact-copy reveal">
-          <p class="section-label">Let's Build What's Next</p>
+      <div class="container contact-wrap">
+        <div>
+          <p class="section-kicker">Let's Build What's Next</p>
           <h2>Open to partnerships, advisory roles, and opportunities that create impact.</h2>
-          <p>
-            Whether you are exploring AI, strengthening operations, or looking for experienced
-            executive leadership, I welcome the opportunity to connect.
-          </p>
-          <a class="button button-gold" href="mailto:Bruce@BHarrisConsultingLLC.com">Let's Connect <span>→</span></a>
         </div>
 
-        <div class="contact-card reveal">
+        <div class="contact-details">
           <a href="mailto:Bruce@BHarrisConsultingLLC.com">Bruce@BHarrisConsultingLLC.com</a>
-          <a href="tel:+18292033486">+1 (829) 203-3486</a>
+          <a href="tel:+18292033486">+1 829-203-3486</a>
           <p>Punta Cana, Dominican Republic</p>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener">LinkedIn Profile</a>
-        </div>
-
-        <div class="contact-signature reveal">
-          <div class="signature">Bruce L. Harris Sr.</div>
-          <p>Executive Leadership.<br>AI Strategy.<br>Business Transformation.</p>
+          <a class="btn btn-gold" href="mailto:Bruce@BHarrisConsultingLLC.com">Let's Connect <span>→</span></a>
         </div>
       </div>
     </section>
   </main>
 
   <footer>
-    <div class="container footer-shell">
+    <div class="container footer-wrap">
+      <div class="signature">Bruce L. Harris Sr.</div>
       <p>© <span id="year"></span> Bruce L. Harris Sr. All rights reserved.</p>
-      <p>Leadership. Innovation. Impact.</p>
     </div>
   </footer>
 
