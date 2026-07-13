@@ -1,0 +1,11 @@
+Upload these items to the ROOT of your GitHub repository:
+- index.html
+- styles.css
+- script.js
+- assets folder
+
+This corrected version includes:
+- Gold portrait background/glow
+- All 3 working View Project Details buttons
+- Caesars, MGM Grand Detroit, Harrah's New Orleans, and Seminole Hard Rock logos
+- Updated casino floor and slot operations wording
